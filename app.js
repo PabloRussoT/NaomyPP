@@ -1,6 +1,6 @@
 import express from 'express';
 import { sequelize } from './database/database.js';
-import medicRoutes from './routes/medicRoutes.js'; // Asegúrate de que este sea el nombre correcto del archivo
+import medicRoutes from './routes/medics.js'; // Asegúrate de que este sea el nombre correcto del archivo
 import { Medic } from './models/Medic.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
